@@ -1,0 +1,15 @@
+{
+  "miniprogramRoot": "dist/",
+  "projectname": "taro-zhihu",
+  "description": "",
+  "appid": "wxd8655d32314739b5",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false,
+    "newFeature": true
+  },
+  "compileType": "miniprogram",
+  "condition": {}
+}
