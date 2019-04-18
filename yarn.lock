@@ -108,6 +108,11 @@
     swiper "^4.4.2"
     weui "^1.1.2"
 
+"@tarojs/mobx@^1.2.24":
+  version "1.2.24"
+  resolved "https://registry.npmjs.org/@tarojs/mobx/-/mobx-1.2.24.tgz#ac28dad797276c5801dec074f54c81ccd1821d1b"
+  integrity sha512-90a/lVucCzs4lrwAGOca9jG5ipTyWZ2SZzx8RmFQd/fer+ymGMHkg+Koj15L0HUZjvNFXDdBHSSnzr4w9V8a8w==
+
 "@tarojs/plugin-babel@1.2.22":
   version "1.2.22"
   resolved "http://registry.npm.taobao.org/@tarojs/plugin-babel/download/@tarojs/plugin-babel-1.2.22.tgz#114e61f77cdc43f70834f6821a0dbf631b97ab99"
@@ -4797,6 +4802,11 @@ mobile-detect@^1.4.2:
   version "1.4.3"
   resolved "http://registry.npm.taobao.org/mobile-detect/download/mobile-detect-1.4.3.tgz#e436a3839f5807dd4d3cd4e081f7d3a51ffda2dd"
   integrity sha1-5Dajg59YB91NPNTggffTpR/9ot0=
+
+mobx@^5.9.4:
+  version "5.9.4"
+  resolved "https://registry.npmjs.org/mobx/-/mobx-5.9.4.tgz#1dee92aba33f67b7baeeb679e3bd376a12e55812"
+  integrity sha512-L9JjTX2rtQUAhCIgnHokfntNOsF14uioT9LqStf6Mya+16j56ZBe21E8Y9V59tfr2aH2kLQPD10qtCJXBuTAxw==
 
 move-concurrently@^1.0.1:
   version "1.0.1"

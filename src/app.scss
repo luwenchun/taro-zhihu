@@ -1,3 +1,8 @@
+@import "~taro-ui/dist/style/index.scss"; // 引入组件样式，仅需引入一次即可
+@import "~taro-ui/dist/style/components/search-bar.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+
 /**app.wxss**/
 .container {
   height: 100%;
@@ -7,11 +12,11 @@
   justify-content: space-between;
   /*padding: 200rpx 0;*/
   box-sizing: border-box;
-  background: #F0F4F3;
+  background: #f0f4f3;
 }
 
 .container.withtab {
-  margin: 105rpx 0 0 0;
+  margin: 105px 0 0 0;
   /*top: 105rpx;*/
 }
 
@@ -33,8 +38,8 @@
 .top-tab {
   width: 750px;
   height: 100px;
-  background: #298DE5;
-  color: #8CCEFD;
+  background: #298de5;
+  color: #8ccefd;
   font-size: 28rpx;
   line-height: 100rpx;
   box-shadow: 0 2px 2px #bebebe;
@@ -70,7 +75,6 @@
   left: 0;
   height: 50px;
   display: block;
-
 }
 
 .container .feed-item .feed-source .avatar {
@@ -83,13 +87,27 @@
   height: 40px;
 }
 
+.container .feed-item .feed-source .avatar .taro-img {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  top: 10px;
+  vertical-align: middle;
+}
+
+.taro-img {
+  width: auto;
+  height: auto;
+}
+
 .container .feed-item .feed-source .avatar image {
   /*position: absolute;*/
   display: inline-block;
   width: 45rpx;
   height: 45rpx;
-  border-radius: 45rpx;
-  top: 10rpx;
+  border-radius: 45px;
+  top: 10px;
   vertical-align: middle;
 }
 
@@ -102,8 +120,6 @@
   top: 3px;
   vertical-align: middle;
 }
-
-
 
 .container .feed-item .feed-source text {
   /*position: absolute;*/
@@ -146,25 +162,29 @@
 }
 
 .container .feed-item .feed-content .answer-body {
-  padding: 10rpx 0 0 0;
+  padding: 10px 0 0 0;
   /*height: 10rpx;*/
-  font-size: 24rpx;
-  line-height: 28rpx;
+  font-size: 24px;
+  line-height: 28px;
   color: #5b5b5b;
 }
 
 .container .feed-item .feed-content .answer-actions {
-  width: 690rpx;
-  padding: 10rpx 0 0;
-  color: #a0acac;
+  width: 690px;
+  padding: 10px 0 0;
+  colo: #a0acac;
   display: block;
+}
+
+.container .feed-item .feed-content .answer-actions>div {
+  display: inline-block;
 }
 
 .container .feed-item .feed-content .answer-actions view {
   display: inline-block;
   vertical-align: text-bottom;
-  padding: 0 10rpx 0 0;
-  font-size: 24rpx;
+  padding: 0 10px 0 0;
+  font-size: 24px;
 }
 
 .container .feed-item .feed-content .answer-actions .dot ::after {

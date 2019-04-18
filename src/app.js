@@ -24,9 +24,14 @@ class App extends Component {
 			'pages/notify/notify',
 			'pages/chat/chat',
 			'pages/more/more',
-			"pages/answer/answer",
-			"pages/question/question",
-			"pages/home/index"
+			'pages/answer/answer',
+			'pages/question/question',
+			'pages/home/index',
+			'pages/search/search',
+			'pages/movie/movie',
+			'pages/study/study',
+			'pages/detail/detail',
+			'pages/login/login'
 		],
 		window: {
 			backgroundTextStyle: 'light',
@@ -61,7 +66,7 @@ class App extends Component {
 				},
 				{
 					pagePath: 'pages/chat/chat',
-					text: 'taro-demo',
+					text: 'demo',
 					iconPath: 'images/chat.png',
 					selectedIconPath: 'images/chat_focus.png'
 				},

@@ -3,7 +3,7 @@
 
 
 .container .search {
-  width: 735px;
+  // width: 735px;
   height: 65px;
   padding: 12.5px 0 12.5px 15px;
   background: #2A8CE5;
@@ -20,6 +20,7 @@
   height: 65px;
   font-size: 26px;
   width: auto;
+  float: left;
 }
 
 .search-placeholder {
@@ -45,6 +46,7 @@
   width: 35px;
   height: 35px;
   padding: 15px 15px 15px 20px;
+  float: left;
 }
 
 .container .search .search-right {
